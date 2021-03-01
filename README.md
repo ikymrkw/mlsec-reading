@@ -1,16 +1,16 @@
-# mlsec-reading --- Machine Learning Security Reading List
+# Machine Learning Security Reading List
 
 # Adversarial examples (or Evasion)
 ## Attack strategies
 ## Hard-label
 ## Adaptive attacks for adversarial examples
 
-## Poisoning (+ poisoned models or backdoors)
+# Poisoning (+ poisoned models or backdoors)
 
-## Model extraction (or Model reconstruction/stealing)
+# Model extraction (or Model reconstruction/stealing)
 
-## Model inversion
+# Model inversion
 
-## Transferability
+# Transferability
 
-## Cross-category attacks
+# Cross-category attacks
