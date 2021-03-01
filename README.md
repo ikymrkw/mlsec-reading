@@ -71,3 +71,9 @@ Certified robustness
 ## Cross-category attacks
 
 ## Practical aspects
+- KumarらのIndustry Perspectives論文 2020
+- [Adversarial ML Threat Matrix](https://github.com/mitre/advmlthreatmatrix/blob/master/pages/case-studies-page.md) Oct 2020 初版
+    - MITREとMicrosoft (Kumarら) が中心となってまとめたらしい
+    - 次の2つが主なコンテンツ
+        - Matrix。行列という名前だが、実際にはリストのリスト。ATT&CKを参考に、攻撃フェーズごとに攻撃テクニックのリストを提示。こうした形で概念と用語を整理し、攻撃や脆弱性の議論・情報交換をしやすくするのが目的。
+        - Case Studies。製品レベルのAIシステムに限定し、実際に可能だった攻撃や脆弱性を、初版では13事例リストアップ。Matrixのどのテクニックが使われたか示しており、Matrixを使った議論・情報交換の実例となっている。
