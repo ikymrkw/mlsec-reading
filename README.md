@@ -39,7 +39,7 @@
 
 ## Model extraction (or Model reconstruction/stealing)
 - Tramer: 木とDNN
-- Knock-off Nets
+- Orekondy, et al., Knockoff Nets: [GSch](https://scholar.google.com/scholar?cluster=18254316857573945122&hl=ja&as_sdt=0,5)
 - PRADA: 強力な新攻撃手法と対抗する防御手法 (PRADA)
 
 ## Model inversion
