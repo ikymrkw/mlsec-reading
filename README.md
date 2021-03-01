@@ -23,11 +23,25 @@
 ### Defense strategies
 検知とロバスト化
 
+Obfuscated gradients
+
+Non-obfuscated gradients --- Adversarial training
+
+Certified robustness
+- Raghunathan, et al., Certified Defenses against Adversarial Examples, ICLR 2018 https://arxiv.org/abs/1801.09344
+    - MNISTで実験成功
+- Cohen, et al., Certified Robustness via Randomized Smoothing, ICML 2019 https://arxiv.org/abs/1902.02918
+    - ガウス球内での期待値でロバストな結果を得ようとする。
+    - モデル自体もロバストにするためにガウスノイズを加えた訓練データも加えて訓練する。それだけだとadversarialなノイズに弱いかもしれないので、期待値を取る。
+    - 期待値は実際には計算できないので、モンテカルロする。
+    - MNISTに加え ImageNet でも成功している
+
 ### Adaptive attacks for adversarial examples
 - C&W 2017: 検知手法を破る
 - C&W 2018: ロバスト化手法を破る。Obfuscated gradients
 - Tramer 2019: 新しい防御手法に対する適応的攻撃。方法論的な観点に踏み込んでいる。
 - Carlini 2020: オンラインのliving document。適応的攻撃の方法論の整理。
+- C&W, RobustML - https://www.robust-ml.org/
 
 ## Poisoning (+ poisoned models or backdoors)
 - Biggio, against SVM
@@ -40,7 +54,10 @@
 ## Model extraction (or Model reconstruction/stealing)
 - Tramer: 木とDNN
 - Orekondy, et al., Knockoff Nets: [GSch](https://scholar.google.com/scholar?cluster=18254316857573945122&hl=ja&as_sdt=0,5)
-- PRADA: 強力な新攻撃手法と対抗する防御手法 (PRADA)
+    - 攻撃対象モデルの訓練データをまったく知らなくても複製モデルを作れるのが特徴。Active learning風にクエリーを工夫する。
+- Juuti, et al., PRADA: [GSch](https://scholar.google.com/scholar?cluster=378782222120699560&hl=ja&as_sdt=0,5)
+    - 強力な新攻撃手法を提案。従来より accuracy, transferability ともに向上。
+    - 攻撃検知手法 (PRADA) を提案。連続したクエリーの分布を見て複製のための振る舞いを検知する
 
 ## Model inversion
 - Fredrikson: ワルファリン。出力->入力かも。属性推定。
@@ -52,3 +69,5 @@
 - Papernot Black-box ...
 
 ## Cross-category attacks
+
+## Practical aspects
