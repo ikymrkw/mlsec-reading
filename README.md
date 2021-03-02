@@ -20,6 +20,9 @@
 ### Hard-label attacks
 数値（確信度）がなくてもクエリーにより近似推定する。
 
+### Adversarial examples against NLP
+- 記事 [私のブックマーク:言語処理分野におけるAdversarial Example](https://jsai.ixsq.nii.ac.jp/ej/index.php?action=pages_view_main&active_action=repository_action_common_download&item_id=10412&item_no=1&attribute_id=22&file_no=1&page_id=13&block_id=23)
+
 ### Defense strategies
 検知とロバスト化
 
@@ -46,9 +49,10 @@ Certified robustness
 ## Poisoning (+ poisoned models or backdoors)
 - Biggio, against SVM
 - Munoz-Gonzalez, against Logistic Regression and Deep Neural Network
+- Munoz-Gonzalezの記事: https://internationaldataspaces.org/how-to-poison-data-based-on-ai/
 
 ### Defenses
-- RONI (Reject on Negative Impact)
+- RONI (Reject on Negative Impact): [ACM](https://dl.acm.org/doi/10.5555/1387709.1387716)
 - Outlier Detection
 
 ## Model extraction (or Model reconstruction/stealing)
