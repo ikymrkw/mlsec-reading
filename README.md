@@ -23,6 +23,14 @@
 ### Adversarial examples against NLP
 - 記事 [私のブックマーク:言語処理分野におけるAdversarial Example](https://jsai.ixsq.nii.ac.jp/ej/index.php?action=pages_view_main&active_action=repository_action_common_download&item_id=10412&item_no=1&attribute_id=22&file_no=1&page_id=13&block_id=23)
 
+### Robust attacks
+- Sharif+ 2016., Accessorize to a Crime, [ACM](https://dl.acm.org/doi/10.1145/2976749.2978392) CCS 2016 -- 眼鏡型
+- Eykholt+ 2018, Robust Physical-World Attacks, CVPR 2018, [arXiv](https://arxiv.org/abs/1707.08945) -- 交通標識
+- Athalye+ 2018, Synthesizing Robust Adversarial Examples, ICML 2018, [arXiv](https://arxiv.org/abs/1707.07397) -- 3Dプリンタ [YouTube](https://www.youtube.com/watch?v=YXy6oX1iNoA) [labsix](https://www.labsix.org/physical-objects-that-fool-neural-nets/)
+
+### Audio attacks
+- 
+
 ### Defense strategies
 検知とロバスト化
 
@@ -42,30 +50,34 @@ Certified robustness
 ### Adaptive attacks for adversarial examples
 - C&W 2017: 検知手法を破る
 - C&W 2018: ロバスト化手法を破る。Obfuscated gradients
-- Tramer 2019: 新しい防御手法に対する適応的攻撃。方法論的な観点に踏み込んでいる。
-- Carlini 2020: オンラインのliving document。適応的攻撃の方法論の整理。
+- Tramer+ 2019: 新しい防御手法に対する適応的攻撃。方法論的な観点に踏み込んでいる。
+- Carlini+ 2020: オンラインのliving document。適応的攻撃の方法論の整理。
 - C&W, RobustML - https://www.robust-ml.org/
 
 ## Poisoning (+ poisoned models or backdoors)
-- Biggio, against SVM
-- Munoz-Gonzalez, against Logistic Regression and Deep Neural Network
+- Biggio+ 2012, Poisoning Attacks Against SVM, ICML 2012, [ACM](\url{https://dl.acm.org/doi/10.5555/3042573.3042761}
+)
+- Munoz-Gonzalez+ 2017, Towards Poisoning of Deep Learning Algorithms with Back-gradient Optimization, AISec 2017, [ACM](https://dl.acm.org/doi/10.1145/3128572.3140451) -- against Logistic Regression and Deep Neural Network
 - Munoz-Gonzalezの記事: https://internationaldataspaces.org/how-to-poison-data-based-on-ai/
 
 ### Defenses
 - RONI (Reject on Negative Impact): [ACM](https://dl.acm.org/doi/10.5555/1387709.1387716)
+- Bagging: Biggio+ 2011, Bagging Classifiers for Fighting Poisoning Attacks in Adversarial Classification Tasks, MCS 2011
 - Outlier Detection
+- Data Sanitization: Steinhardt+ 2017, Certified Defenses for Data Poisoning Attacks, NIPS 2017
 
 ## Model extraction (or Model reconstruction/stealing)
-- Tramer: 木とDNN
-- Orekondy, et al., Knockoff Nets: [GSch](https://scholar.google.com/scholar?cluster=18254316857573945122&hl=ja&as_sdt=0,5)
+- Tramer+ 2016, Stealing Machine Learning Models via Prediction APIs, USENIX Security 2016 -- 木とDNN
+- Orekondy+, Knockoff Nets: [GSch](https://scholar.google.com/scholar?cluster=18254316857573945122&hl=ja&as_sdt=0,5)
     - 攻撃対象モデルの訓練データをまったく知らなくても複製モデルを作れるのが特徴。Active learning風にクエリーを工夫する。
-- Juuti, et al., PRADA: [GSch](https://scholar.google.com/scholar?cluster=378782222120699560&hl=ja&as_sdt=0,5)
+- Juuti+, PRADA: [GSch](https://scholar.google.com/scholar?cluster=378782222120699560&hl=ja&as_sdt=0,5)
     - 強力な新攻撃手法を提案。従来より accuracy, transferability ともに向上。
     - 攻撃検知手法 (PRADA) を提案。連続したクエリーの分布を見て複製のための振る舞いを検知する
 
 ## Model inversion
 - Fredrikson: ワルファリン。出力->入力かも。属性推定。
-- Fredrikson: 顔認識。入出力->訓練データ。全属性の推定だが顔画像というフォーマットが固定的。再現が難しい（良い例だけ cherry-pick している？）という話も。
+- Fredrikson+ 2015, Model inversion Attacks that Exploit Confidence Information ..., ACM CCS 2015
+    - 顔認識。入出力->訓練データ。全属性の推定だが顔画像というフォーマットが固定的。再現が難しい（良い例だけ cherry-pick している）？
 - Basu: S. Basu, R. Izmailov , C. Mesterharm, “Membership Model Inversion attacks for Deep Networks,” NeurIPS 2019, Workshop on Privacy in Machine Learning, 2019.
 - Yang: Z. Yang, J. Zhang, E.-C. Chang and Z. Liang, "Neural Network Inversion in Adversarial Setting via Background Knowledge Alignment," the 2019 ACM SIGSAC Conference on Computer and Communications Security, Pages 225-240, 2019 [IEEE](https://dl.acm.org/doi/abs/10.1145/3319535.3354261)
 - GPT-2 inversion: 自然言語、生成モデル。入出力->訓練データ。
