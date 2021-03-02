@@ -1,8 +1,8 @@
 # Machine Learning Security Reading List
 
 ## General
-- Papernot SoK
-- Biggio Wild Patterns
+- Papernot+ 2018, SoK: Security and Privacy in Machine Learning``, EuroS&P 2018. [IEEE](https://ieeexplore.ieee.org/document/8406613)
+- Biggio and Roli, Wild Patterns: Ten years after the rise of adversarial machine learning, Pattern Recognition, Vol. 84, 2018. [DOI](https://doi.org/10.1016/j.patcog.2018.07.023)
 
 ## Adversarial examples (or Evasion)
 
