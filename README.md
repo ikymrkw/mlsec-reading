@@ -5,12 +5,12 @@
 - Biggio and Roli, Wild Patterns: Ten years after the rise of adversarial machine learning, Pattern Recognition, Vol. 84, 2018. [DOI](https://doi.org/10.1016/j.patcog.2018.07.023)
 
 ## Adversarial examples (or Evasion)
+Szegedy+ 2013, https://arxiv.org/abs/1312.6199
 
 ### Attack strategies
 基本は勾配ベースの最適化。探索範囲は Lpノルムが主流（画像は L2 と L∞ が多い）。
-- FGSM: 勾配の符号のε倍を1回加える手法。単純で計算が早いが、なかなか実用的。
-- iFGSM: FGSMをiterativeに、小さなεで数回行う。
-- PGD: iFGSMに似ているが符号のε倍ではなく勾配そのもののε倍(?)を iterative に加える。もっとも一般的な手法
+- FGSM: 損失関数の勾配の符号のε倍を1回加える手法。単純で計算が早いが、なかなか実用的。Goodfellow+ ICLR 2015: [arXiv](http://arxiv.org/abs/1412.6572)
+- PGD: FGSMを複数ステップ繰り返す。Madry+ ICLR 2018: [arXiv](https://arxiv.org/abs/1706.06083)
 
 実際には値を変えられる範囲が決まっているので、範囲を超えるような勾配成分は無視する（性能的には望ましい）か、範囲を超えて摂動させてから範囲内にクリップする（性能は劣るが実装が容易）必要がある。
 
