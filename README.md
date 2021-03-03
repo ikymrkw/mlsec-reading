@@ -5,11 +5,12 @@
 - Biggio and Roli, Wild Patterns: Ten years after the rise of adversarial machine learning, Pattern Recognition, Vol. 84, 2018. [DOI](https://doi.org/10.1016/j.patcog.2018.07.023)
 
 ## Adversarial examples (or Evasion)
-Szegedy+ 2013, https://arxiv.org/abs/1312.6199 - おそらく初めて "adversarial example" という名前を使った論文。
-距離制約はせずに、できるだけ近くでできるだけ損失関数が大きい（または目的のクラスに対して小さい）摂動を、L-BFGSで探索した、と書いてある。L-BFGSは2階微分を使った山登り法の一種らしい。
+日本語の入門的記事: https://elix-tech.github.io/ja/2017/10/15/adversarial.html
 
 ### Attack strategies
 基本は勾配ベースの最適化。探索範囲は Lpノルムが主流（画像は L2 と L∞ が多い）。
+- Szegedy+ 2013, https://arxiv.org/abs/1312.6199 - おそらく初めて "adversarial example" という名前を使った論文。
+    - 距離制約はせずに、できるだけ近くでできるだけ損失関数が大きい（または目的のクラスに対して小さい）摂動を、L-BFGSで探索した、と書いてある。L-BFGSは2階微分を使った山登り法の一種らしい。
 - FGSM: 損失関数の勾配の符号のε倍を1回加える手法。単純で計算が早いが、なかなか実用的。Goodfellow+ ICLR 2015: [arXiv](http://arxiv.org/abs/1412.6572)
 - PGD: FGSMを複数ステップ繰り返す。Madry+ ICLR 2018: [arXiv](https://arxiv.org/abs/1706.06083)
 
