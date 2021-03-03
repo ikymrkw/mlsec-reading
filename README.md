@@ -5,7 +5,8 @@
 - Biggio and Roli, Wild Patterns: Ten years after the rise of adversarial machine learning, Pattern Recognition, Vol. 84, 2018. [DOI](https://doi.org/10.1016/j.patcog.2018.07.023)
 
 ## Adversarial examples (or Evasion)
-Szegedy+ 2013, https://arxiv.org/abs/1312.6199
+Szegedy+ 2013, https://arxiv.org/abs/1312.6199 - おそらく初めて "adversarial example" という名前を使った論文。
+距離制約はせずに、できるだけ近くでできるだけ損失関数が大きい（または目的のクラスに対して小さい）摂動を、L-BFGSで探索した、と書いてある。L-BFGSは2階微分を使った山登り法の一種らしい。
 
 ### Attack strategies
 基本は勾配ベースの最適化。探索範囲は Lpノルムが主流（画像は L2 と L∞ が多い）。
