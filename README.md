@@ -72,8 +72,9 @@ Certified robustness
 - Tramer+ 2016, Stealing Machine Learning Models via Prediction APIs, USENIX Security 2016 -- 木とDNN
 - Orekondy+, Knockoff Nets: [GSch](https://scholar.google.com/scholar?cluster=18254316857573945122&hl=ja&as_sdt=0,5)
     - 攻撃対象モデルの訓練データをまったく知らなくても複製モデルを作れるのが特徴。Active learning風にクエリーを工夫する。
+    - 中規模サイズの画像の認識に対し、(Budget Bがクエリー回数と読むと）5万～10万くらいで accuracy が saturate している。
 - Juuti+, PRADA: [GSch](https://scholar.google.com/scholar?cluster=378782222120699560&hl=ja&as_sdt=0,5)
-    - 強力な新攻撃手法を提案。従来より accuracy, transferability ともに向上。
+    - ごく一部の訓練データサンプルから敵対的サンプルを使ってデータ増強。従来より accuracy, transferability ともに向上。MNISTとGTSRB (32x32) で実験。10万強のクエリーを行う。
     - 攻撃検知手法 (PRADA) を提案。連続したクエリーの分布を見て複製のための振る舞いを検知する
 
 ## Model inversion
