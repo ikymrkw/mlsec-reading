@@ -51,8 +51,8 @@ Certified robustness
     - MNISTに加え ImageNet でも成功している
 
 ### Adaptive attacks for adversarial examples
-- C&W 2017: 検知手法を破る
-- C&W 2018: ロバスト化手法を破る。Obfuscated gradients
+- C&W 2017: 検知手法を破る。Adversarial Examples Are Not Easily Detected. [arXiv](https://arxiv.org/abs/1705.07263)
+- ACW 2018: ロバスト化手法を破る。Obfuscated gradients Give a False Sense of Security. [arXiv](https://arxiv.org/abs/1802.00420)
 - Tramer+ 2019: 新しい防御手法に対する適応的攻撃。方法論的な観点に踏み込んでいる。
 - Carlini+ 2020: オンラインのliving document。適応的攻撃の方法論の整理。
 - C&W, RobustML - https://www.robust-ml.org/
