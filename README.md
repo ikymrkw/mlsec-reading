@@ -85,6 +85,7 @@ Certified robustness
 - Basu: S. Basu, R. Izmailov , C. Mesterharm, “Membership Model Inversion attacks for Deep Networks,” NeurIPS 2019, Workshop on Privacy in Machine Learning, 2019.
 - Yang: Z. Yang, J. Zhang, E.-C. Chang and Z. Liang, "Neural Network Inversion in Adversarial Setting via Background Knowledge Alignment," the 2019 ACM SIGSAC Conference on Computer and Communications Security, Pages 225-240, 2019 [IEEE](https://dl.acm.org/doi/abs/10.1145/3319535.3354261)
 - GPT-2 inversion: 自然言語、生成モデル。入出力->訓練データ。[arXiv](https://arxiv.org/abs/2012.07805)
+- Song+ 2019: Shokriら。Advex対策するとMembership Inferenceに弱くなる。CCS 2019, [arXiv](https://arxiv.org/abs/1905.10291)
 
 ## Transferability
 - Papernot Black-box ...
