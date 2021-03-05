@@ -29,6 +29,7 @@
 - Sharif+ 2016., Accessorize to a Crime, [ACM](https://dl.acm.org/doi/10.1145/2976749.2978392) CCS 2016 -- 眼鏡型
 - Eykholt+ 2018, Robust Physical-World Attacks, CVPR 2018, [arXiv](https://arxiv.org/abs/1707.08945) -- 交通標識
 - Athalye+ 2018, Synthesizing Robust Adversarial Examples, ICML 2018, [arXiv](https://arxiv.org/abs/1707.07397) -- 3Dプリンタ [YouTube](https://www.youtube.com/watch?v=YXy6oX1iNoA) [labsix](https://www.labsix.org/physical-objects-that-fool-neural-nets/)
+- Adversarial patch: https://arxiv.org/pdf/1712.09665.pdf
 
 ### Audio attacks
 - 
