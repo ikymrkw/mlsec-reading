@@ -10,7 +10,7 @@
 
 ### Attack strategies
 基本は勾配ベースの最適化。探索範囲は Lpノルムが主流（画像は L2 と L∞ が多い）。
-- Szegedy+ 2013, https://arxiv.org/abs/1312.6199 - おそらく初めて "adversarial example" という名前を使った論文。
+- Szegedy+ 2013, [arXiv](https://arxiv.org/abs/1312.6199) - おそらく初めて "adversarial example" という名前を使った論文。
     - 距離制約はせずに、できるだけ近くでできるだけ損失関数が大きい（または目的のクラスに対して小さい）摂動を、L-BFGSで探索した、と書いてある。L-BFGSは2階微分を使った山登り法の一種らしい。
 - FGSM: 損失関数の勾配の符号のε倍を1回加える手法。単純で計算が早いが、なかなか実用的。Goodfellow+ ICLR 2015: [arXiv](http://arxiv.org/abs/1412.6572)
 - PGD: FGSMを複数ステップ繰り返す。Madry+ ICLR 2018: [arXiv](https://arxiv.org/abs/1706.06083)
@@ -30,7 +30,7 @@
 - Sharif+ 2016., Accessorize to a Crime, [ACM](https://dl.acm.org/doi/10.1145/2976749.2978392) CCS 2016 -- 眼鏡型
 - Eykholt+ 2018, Robust Physical-World Attacks, CVPR 2018, [arXiv](https://arxiv.org/abs/1707.08945) -- 交通標識
 - Athalye+ 2018, Synthesizing Robust Adversarial Examples, ICML 2018, [arXiv](https://arxiv.org/abs/1707.07397) -- 3Dプリンタ [YouTube](https://www.youtube.com/watch?v=YXy6oX1iNoA) [labsix](https://www.labsix.org/physical-objects-that-fool-neural-nets/)
-- Adversarial patch: https://arxiv.org/pdf/1712.09665.pdf
+- Adversarial patch: [arXiv](https://arxiv.org/pdf/1712.09665.pdf)
 
 ### Audio attacks
 - 
@@ -43,9 +43,9 @@ Obfuscated gradients
 Non-obfuscated gradients --- Adversarial training
 
 Certified robustness
-- Raghunathan, et al., Certified Defenses against Adversarial Examples, ICLR 2018 https://arxiv.org/abs/1801.09344
+- Raghunathan, et al., Certified Defenses against Adversarial Examples, ICLR 2018 [arXiv](https://arxiv.org/abs/1801.09344)
     - MNISTで実験成功（※何をもって成功としている？）
-- Cohen, et al., Certified Robustness via Randomized Smoothing, ICML 2019 https://arxiv.org/abs/1902.02918
+- Cohen, et al., Certified Robustness via Randomized Smoothing, ICML 2019 [arXiv](https://arxiv.org/abs/1902.02918)
     - ガウス球内での期待値でロバストな結果を得ようとする。
     - モデル自体もロバストにするためにガウスノイズを加えた訓練データも加えて訓練する。それだけだとadversarialなノイズに弱いかもしれないので、期待値を取る。
     - 期待値は実際には計算できないので、モンテカルロする。
