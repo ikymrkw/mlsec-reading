@@ -93,7 +93,7 @@ Certified robustness
 ## Cross-category attacks
 
 ## Practical aspects
-- KumarらのIndustry Perspectives論文 2020
+- Kumar+ 2020, Adversarial Machine Learning: Industry Perspectives [arXiv](https://arxiv.org/pdf/2002.05646.pdf)
 - [Adversarial ML Threat Matrix](https://github.com/mitre/advmlthreatmatrix/blob/master/pages/case-studies-page.md) Oct 2020 初版
     - MITREとMicrosoft (Kumarら) が中心となってまとめたらしい
     - 次の2つが主なコンテンツ
