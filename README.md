@@ -5,7 +5,8 @@
 - Biggio and Roli, Wild Patterns: Ten years after the rise of adversarial machine learning, Pattern Recognition, Vol. 84, 2018. [DOI](https://doi.org/10.1016/j.patcog.2018.07.023)
 
 ## Adversarial examples (or Evasion)
-日本語の入門的記事: https://elix-tech.github.io/ja/2017/10/15/adversarial.html
+- 日本語の入門的記事: [Elix Tech Blog](https://elix-tech.github.io/ja/2017/10/15/adversarial.html)
+- あるポスドクの [Reading List](https://github.com/chawins/Adversarial-Examples-Reading-List)
 
 ### Attack strategies
 基本は勾配ベースの最適化。探索範囲は Lpノルムが主流（画像は L2 と L∞ が多い）。
