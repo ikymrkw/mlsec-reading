@@ -44,12 +44,12 @@ Non-obfuscated gradients --- Adversarial training
 
 Certified robustness
 - Raghunathan, et al., Certified Defenses against Adversarial Examples, ICLR 2018 https://arxiv.org/abs/1801.09344
-    - MNISTで実験成功
+    - MNISTで実験成功（※何をもって成功としている？）
 - Cohen, et al., Certified Robustness via Randomized Smoothing, ICML 2019 https://arxiv.org/abs/1902.02918
     - ガウス球内での期待値でロバストな結果を得ようとする。
     - モデル自体もロバストにするためにガウスノイズを加えた訓練データも加えて訓練する。それだけだとadversarialなノイズに弱いかもしれないので、期待値を取る。
     - 期待値は実際には計算できないので、モンテカルロする。
-    - MNISTに加え ImageNet でも成功している
+    - MNISTに加え ImageNet でも成功している（※何をもって成功としている？）
 
 ### Adaptive attacks for adversarial examples
 - C&W 2017: 検知手法を破る。Adversarial Examples Are Not Easily Detected. [arXiv](https://arxiv.org/abs/1705.07263)
