@@ -3,6 +3,7 @@
 ## General
 - Papernot+ 2018, SoK: Security and Privacy in Machine Learning``, EuroS&P 2018. [IEEE](https://ieeexplore.ieee.org/document/8406613)
 - Biggio and Roli, Wild Patterns: Ten years after the rise of adversarial machine learning, Pattern Recognition, Vol. 84, 2018. [DOI](https://doi.org/10.1016/j.patcog.2018.07.023)
+- [Adversarial Machine Learning Reading List](https://nicholas.carlini.com/writing/2018/adversarial-machine-learning-reading-list.html) by N. Carlini
 
 ## Adversarial examples (or Evasion)
 - 日本語の入門的記事: [Elix Tech Blog](https://elix-tech.github.io/ja/2017/10/15/adversarial.html)
