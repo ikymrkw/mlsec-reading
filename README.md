@@ -79,6 +79,8 @@ Certified robustness
 - Juuti+, PRADA: [GSch](https://scholar.google.com/scholar?cluster=378782222120699560&hl=ja&as_sdt=0,5)
     - ごく一部の訓練データサンプルから敵対的サンプルを使ってデータ増強。従来より accuracy, transferability ともに向上。MNISTとGTSRB (32x32) で実験。10万強のクエリーを行う。
     - 攻撃検知手法 (PRADA) を提案。連続したクエリーの分布を見て複製のための振る舞いを検知する
+### Model extraction against NLP models
+- [Stealing BERT](http://www.cleverhans.io/2020/04/06/stealing-bert.html) by Krishna and Papernot
 
 ## Model inversion
 - Fredrikson: ワルファリン。出力->入力かも。属性推定。
@@ -88,6 +90,10 @@ Certified robustness
 - Yang: Z. Yang, J. Zhang, E.-C. Chang and Z. Liang, "Neural Network Inversion in Adversarial Setting via Background Knowledge Alignment," the 2019 ACM SIGSAC Conference on Computer and Communications Security, Pages 225-240, 2019 [IEEE](https://dl.acm.org/doi/abs/10.1145/3319535.3354261)
 - GPT-2 inversion: 自然言語、生成モデル。入出力->訓練データ。[arXiv](https://arxiv.org/abs/2012.07805)
 - Song+ 2019: Shokriら。Advex対策するとMembership Inferenceに弱くなる。CCS 2019, [arXiv](https://arxiv.org/abs/1905.10291)
+
+### Model inversion against NLP models
+- Pan: "Privacy Risks of General Purpose Language Models" [IEEE S&P 2020](https://www.computer.org/csdl/proceedings-article/sp/2020/349700b471/1j2LgooZ4fS), [Semantic Scholar](https://www.semanticscholar.org/paper/Privacy-Risks-of-General-Purpose-Language-Models-Pan-Zhang/b3c73de96640ee858f83c3f0eda2a3d15d59b847)
+- Song: "Information Leakage in Embedding Models" [ACM CCS 2020](https://dl.acm.org/doi/10.1145/3372297.3417270)
 
 ## Transferability
 - Papernot Black-box ...
