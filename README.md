@@ -27,6 +27,9 @@
 ### Adversarial examples against NLP
 - 記事 [私のブックマーク:言語処理分野におけるAdversarial Example](https://jsai.ixsq.nii.ac.jp/ej/index.php?action=pages_view_main&active_action=repository_action_common_download&item_id=10412&item_no=1&attribute_id=22&file_no=1&page_id=13&block_id=23)
 
+### Adversarial examples against Preprocessing
+- Image scaling [USENIX Sec 2020](https://www.usenix.org/conference/usenixsecurity20/presentation/quiring)
+
 ### Robust attacks
 - Sharif+ 2016., Accessorize to a Crime, [ACM](https://dl.acm.org/doi/10.1145/2976749.2978392) CCS 2016 -- 眼鏡型
 - Eykholt+ 2018, Robust Physical-World Attacks, CVPR 2018, [arXiv](https://arxiv.org/abs/1707.08945) -- 交通標識
