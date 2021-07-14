@@ -1,4 +1,6 @@
-# Machine Learning Security Reading List
+# 機械学習セキュリティ 文献リスト
+
+記事「機械学習セキュリティ研究のフロンティア」 https://doi.org/10.1587/essfr.15.1_37 の参考文献リスト（増強版）です。
 
 ## General
 - Papernot+ 2018, SoK: Security and Privacy in Machine Learning``, EuroS&P 2018. [IEEE](https://ieeexplore.ieee.org/document/8406613)
