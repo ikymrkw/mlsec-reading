@@ -10,6 +10,7 @@
 ## Adversarial examples (or Evasion)
 - 日本語の入門的記事: [Elix Tech Blog](https://elix-tech.github.io/ja/2017/10/15/adversarial.html)
 - あるポスドクの [Reading List](https://github.com/chawins/Adversarial-Examples-Reading-List)
+- Ilyas 2019, Adversarial Examples Are Not Bugs; They Are Features
 
 ### Attack strategies
 基本は勾配ベースの最適化。探索範囲は Lpノルムが主流（画像は L2 と L∞ が多い）。
