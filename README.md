@@ -25,21 +25,23 @@
 
 ### Hard-label attacks
 数値（確信度）がなくてもクエリーにより近似推定する。
+- (TBA)
 
 ### Adversarial examples against NLP
 - 記事 [私のブックマーク:言語処理分野におけるAdversarial Example](https://jsai.ixsq.nii.ac.jp/ej/index.php?action=pages_view_main&active_action=repository_action_common_download&item_id=10412&item_no=1&attribute_id=22&file_no=1&page_id=13&block_id=23)
 
 ### Adversarial examples against Preprocessing
 - Image scaling [USENIX Sec 2020](https://www.usenix.org/conference/usenixsecurity20/presentation/quiring)
+- 自然言語の前処理（埋め込み）に対する攻撃もある (TBA)
 
 ### Robust attacks
 - Sharif+ 2016., Accessorize to a Crime, [ACM](https://dl.acm.org/doi/10.1145/2976749.2978392) CCS 2016 -- 眼鏡型
 - Eykholt+ 2018, Robust Physical-World Attacks, CVPR 2018, [arXiv](https://arxiv.org/abs/1707.08945) -- 交通標識
-- Athalye+ 2018, Synthesizing Robust Adversarial Examples, ICML 2018, [arXiv](https://arxiv.org/abs/1707.07397) -- 3Dプリンタ [YouTube](https://www.youtube.com/watch?v=YXy6oX1iNoA) [labsix](https://www.labsix.org/physical-objects-that-fool-neural-nets/)
+- Athalye+ 2018, Synthesizing Robust Adversarial Examples, ICML 2018, [arXiv](https://arxiv.org/abs/1707.07397) -- 3Dプリンタで作ったカメ [YouTube](https://www.youtube.com/watch?v=YXy6oX1iNoA) [labsix](https://www.labsix.org/physical-objects-that-fool-neural-nets/)
 - Adversarial patch: [arXiv](https://arxiv.org/pdf/1712.09665.pdf)
 
 ### Audio attacks
-- 
+- (TBA)
 
 ### Defense strategies
 検知とロバスト化
@@ -49,6 +51,8 @@ Obfuscated gradients
 Non-obfuscated gradients --- Adversarial training
 
 Certified robustness
+- Maximum safe radius (最大安全距離) の形式検証
+    - Katz 2017 (Reluplex), Tjeng 2019, Weng 2018 など
 - Raghunathan, et al., Certified Defenses against Adversarial Examples, ICLR 2018 [arXiv](https://arxiv.org/abs/1801.09344)
     - MNISTで実験成功（※何をもって成功としている？）
 - Cohen, et al., Certified Robustness via Randomized Smoothing, ICML 2019 [arXiv](https://arxiv.org/abs/1902.02918)
