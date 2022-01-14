@@ -10,7 +10,7 @@
 ## Adversarial examples (or Evasion)
 - 日本語の入門的記事: [Elix Tech Blog](https://elix-tech.github.io/ja/2017/10/15/adversarial.html)
 - あるポスドクの [Reading List](https://github.com/chawins/Adversarial-Examples-Reading-List)
-- Ilyas 2019, Adversarial Examples Are Not Bugs; They Are Features, NeurIPS 2019.
+- Ilyas 2019, Adversarial Examples Are Not Bugs; They Are Features, NeurIPS 2019. -- 分類に有効 (useful) だが正しい（人間の）判断には寄与しない (non-robust) 特徴量の存在が原因だ、と主張する論文
 
 ### Attack strategies
 基本は勾配ベースの最適化。探索範囲は Lpノルムが主流（画像は L2 と L∞ が多い）。
