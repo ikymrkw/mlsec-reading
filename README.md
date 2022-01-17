@@ -23,12 +23,13 @@
 特殊な探索範囲
 - JSMA: Papernot+ 2016: saliency map（つまりJacobian = 勾配(偏微分)の配列）のうち絶対値の大きなものから k 個選んで摂動させる。つまり L0ノルム <= k で探索している。IEEE Euro S&P 2016, [arXiv](https://arxiv.org/pdf/1511.07528.pdf)
 
-転移性
-- Papernot+ 2017, Practical Black-Box Attacks against Machine Learning, ASIA CCS 2017 -- 転移性 (transferability)
+### Black-box attacks
+基本的には white-box attack で評価すべきと言われているが（下記の adaptive attacks を参照）、 black-box attack の検討もされている。
 
-### Hard-label attacks
-数値（確信度）がなくてもクエリーにより近似推定する。
-- (TBA)
+- Transferability (転移性)
+    - Papernot+ 2017, Practical Black-Box Attacks against Machine Learning, ASIA CCS 2017 -- 同じタスクであれば異なるモデルでも同じ adversarial example が通用しがち。つまり、訓練データが入手可能なら自分で訓練したり、 model extraction (後述) で攻撃対象モデルを複製したりすれば、手元の代理モデル (surrogate model, substitute model) に対して white-box attack をすればよい。
+- Hard-label attacks
+    - 数値（確信度）がなくてもクエリーにより近似推定する。(TBA)
 
 ### Adversarial examples against NLP
 - 記事 [私のブックマーク:言語処理分野におけるAdversarial Example](https://jsai.ixsq.nii.ac.jp/ej/index.php?action=pages_view_main&active_action=repository_action_common_download&item_id=10412&item_no=1&attribute_id=22&file_no=1&page_id=13&block_id=23)
