@@ -126,7 +126,7 @@ Certified robustness
 ## Practical aspects
 - Kumar+ 2020, Adversarial Machine Learning: Industry Perspectives [arXiv](https://arxiv.org/pdf/2002.05646.pdf)
     - 企業へのインタビューと SDL的な取り組みへの提言
-- [Adversarial ML Threat Matrix](https://github.com/mitre/advmlthreatmatrix/blob/master/pages/case-studies-page.md) Oct 2020 初版
+- [Adversarial ML Threat Matrix](https://github.com/mitre/advmlthreatmatrix/blob/master/pages/case-studies-page.md) Oct 2020 初版 -> 2021年 ATLAS に進化
     - MITREとMicrosoft (Kumarら) が中心となってまとめたらしい
     - 次の2つが主なコンテンツ
         - Matrix。行列という名前だが、実際にはリストのリスト。ATT&CKを参考に、攻撃フェーズごとに攻撃テクニックのリストを提示。こうした形で概念と用語を整理し、攻撃や脆弱性の議論・情報交換をしやすくするのが目的。
