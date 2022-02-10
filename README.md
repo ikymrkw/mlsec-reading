@@ -104,7 +104,7 @@ Certified robustness
 - [Stealing BERT](http://www.cleverhans.io/2020/04/06/stealing-bert.html) by Krishna and Papernot
 
 
-## Model inversion
+## Training data inference (model inversion, attribute inference, membership inference, ...)
 - Fredrikson: ワルファリン。出力->入力かも。属性推定。
 - Fredrikson+ 2015, Model inversion Attacks that Exploit Confidence Information ..., ACM CCS 2015
     - 顔認識。入出力->訓練データ。全属性の推定だが顔画像というフォーマットが固定的。再現が難しい（良い例だけ cherry-pick している）？
@@ -113,6 +113,8 @@ Certified robustness
 - GPT-2 inversion: 自然言語、生成モデル。入出力->訓練データ。[arXiv](https://arxiv.org/abs/2012.07805)
 - Song+ 2019: Shokriら。Advex対策するとMembership Inferenceに弱くなる。CCS 2019, [arXiv](https://arxiv.org/abs/1905.10291)
 - 樋口, 森川, 清水, 分類モデルに対するVAEを用いた教師データ推定攻撃, 暗号と情報セキュリティシンポジウム SCIS 2020.
+
+- [TODO] membership inference attacks
 
 ### Model inversion against NLP models
 - Pan: "Privacy Risks of General Purpose Language Models" [IEEE S&P 2020](https://www.computer.org/csdl/proceedings-article/sp/2020/349700b471/1j2LgooZ4fS), [Semantic Scholar](https://www.semanticscholar.org/paper/Privacy-Risks-of-General-Purpose-Language-Models-Pan-Zhang/b3c73de96640ee858f83c3f0eda2a3d15d59b847)
