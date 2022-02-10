@@ -46,6 +46,7 @@
 - Brown+ 2017, Adversarial Patch, NIPS 2017. [arXiv](https://arxiv.org/pdf/1712.09665.pdf)
 
 ### Other data types
+- Semantic Segmentation: Xial+ 2018, Characterizing Adversarial Examples Based on Spatial Consistency Information for Semantic Segmentation, ECCV 2018. [arXiv](https://arxiv.org/abs/1810.05162) - 画像からの物体領域の切り出しに対する adversarial examples とその対策・性質。
 - Audio: Carlini+ 2018, Audio Adversarial Examples: Targeted Attacks on Speech-to-Text, DLS 2018. [from author](https://nicholas.carlini.com/papers/2018_dls_audioadvex.pdf)
 - Tabular: Cartella+ 2021, Adversarial Attacks for Tabular Data: Application to Fraud Detection and Imbalanced Data, SafeAI 2021. [arXiv](https://arxiv.org/abs/2101.08030) [SafeAI](https://safeai.webs.upv.es/wp-content/uploads/2021/02/01_SafeAI2021-Cartella-et-al-Adversarial-Attacks-for-Tabular-Data.pdf)
 
