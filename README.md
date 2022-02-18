@@ -155,7 +155,7 @@ Certified robustness
     - [プレスリリース](https://www.enisa.europa.eu/news/enisa-news/enisa-ai-threat-landscape-report-unveils-major-cybersecurity-challenges) では "Landscape Report" と呼ばれている
     - ちなみに ENISA は EU のサイバーセキュリティの agency
 - [Security] ENISA: Report "Securing Machine Learning Algorithms" (2021/12/14) [link](https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms)
-- [General] 英ICO: Guidance on AI and Data Protection (2020/07) [link](https://ico.org.uk/for-organisations/guide-to-data-protection/key-dp-themes/guidance-on-artificial-intelligence-anddata-protection/]
+- [General] 英ICO: Guidance on AI and Data Protection (2020/07) [link](https://ico.org.uk/for-organisations/guide-to-data-protection/key-dp-themes/guidance-on-artificial-intelligence-anddata-protection/)
     - データ保護観点からのガイダンス。リスク評価ツール (Excel) が付属。
 
 
