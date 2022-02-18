@@ -135,10 +135,32 @@ Certified robustness
     - 次の2つが主なコンテンツ
         - Matrix。行列という名前だが、実際にはリストのリスト。ATT&CKを参考に、攻撃フェーズごとに攻撃テクニックのリストを提示。こうした形で概念と用語を整理し、攻撃や脆弱性の議論・情報交換をしやすくするのが目的。
         - Case Studies。製品レベルのAIシステムに限定し、実際に可能だった攻撃や脆弱性を、初版では13事例リストアップ。Matrixのどのテクニックが使われたか示しており、Matrixを使った議論・情報交換の実例となっている。
-- NISTIR 8269 (2019)
-    - 2021年2月現在、まだ[ドラフト](https://csrc.nist.gov/publications/detail/nistir/8269/draft)
-    - Taxonomy and Terminology というタイトルのとおり、概念と用語の整理を行っている
 - QA4AIコンソーシアム, AIプロダクト品質保証ガイドライン 2020.08版. [link](http://www.qa4ai.jp/QA4AI.Guideline.202008.pdf)
 - 産業技術総合研究所, 機械学習品質マネジメントガイドライン 第1版, 2020. [link](https://www.cpsec.aist.go.jp/achievements/aiqm/) -- 2021年に第2版
 - 森川, 清水, 樋口, 前田, 矢嶋, 敵対的機械学習のための脅威分析手法の提案, コンピュータセキュリティシンポジウム CSS 2019.
 - 矢嶋, 清水, 森川, 大久保, 機械学習システムに潜むAIセキュリティ脆弱性の分析手法に関する一考察, 暗号と情報セキュリティシンポジウム SCIS 2021.
+
+## Governments and International Activities
+- [Security] NISTIR 8269 Draft (2019)
+    - 2021年2月現在、まだ[ドラフト](https://csrc.nist.gov/publications/detail/nistir/8269/draft)
+    - Taxonomy and Terminology というタイトルのとおり、概念と用語の整理を行っている
+- [General] EU: Ethics Guidelines for Trustworthy AI (2019/11)
+    -  https://op.europa.eu/en/publication-detail/-/publication/d3988569-0434-11ea-8c1f-01aa75ed71a1
+- [General] EU: Whitepaper "On Artificial Intelligence - A European approach to excellence and trust" (2020/02/19)
+- [General] EU: AI Act (proposal) (2021/04)
+    - https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52021PC0206&from=EN
+    - 主な内容
+        - イノベーションと社会の安全・安定の両立を図る
+        - リスクを理解し、高リスクなAIシステムを区別し、コントロールする
+        - 頑健性（セキュリティ含む）やプライバシーを実現する技術の重要性を謳っている
+- [Security] ENISA: Report "Artificial Intelligence Cybersecurity Challenges" (2020/12/15)
+    - https://www.enisa.europa.eu/publications/artificial-intelligence-cybersecurity-challenges
+    - [プレスリリース](https://www.enisa.europa.eu/news/enisa-news/enisa-ai-threat-landscape-report-unveils-major-cybersecurity-challenges) では "Landscape Report" と呼ばれている
+    - ENISA は EU のサイバーセキュリティの agency
+- [Security] ENISA: Report "Securing Machine Learning Algorithms" (2021/12/14)
+    - https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms
+- [General] 英ICO: Guidance on AI and Data Protection (2020/07)
+    - https://ico.org.uk/for-organisations/guide-to-data-protection/key-dp-themes/guidance-on-artificial-intelligence-anddata-protection/
+    - データ保護観点からのガイダンス。リスク評価ツール (Excel) が付属。
+
+
