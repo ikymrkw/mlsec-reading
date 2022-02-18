@@ -144,23 +144,18 @@ Certified robustness
 - [Security] NISTIR 8269 Draft (2019)
     - 2021年2月現在、まだ[ドラフト](https://csrc.nist.gov/publications/detail/nistir/8269/draft)
     - Taxonomy and Terminology というタイトルのとおり、概念と用語の整理を行っている
-- [General] EU: Ethics Guidelines for Trustworthy AI (2019/11)
-    -  https://op.europa.eu/en/publication-detail/-/publication/d3988569-0434-11ea-8c1f-01aa75ed71a1
-- [General] EU: Whitepaper "On Artificial Intelligence - A European approach to excellence and trust" (2020/02/19)
-- [General] EU: AI Act (proposal) (2021/04)
-    - https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52021PC0206&from=EN
+- [General] EU: Ethics Guidelines for Trustworthy AI (2019/11) [link](https://op.europa.eu/en/publication-detail/-/publication/d3988569-0434-11ea-8c1f-01aa75ed71a1)
+- [General] EU: Whitepaper "On Artificial Intelligence - A European approach to excellence and trust" (2020/02/19) [link](https://ec.europa.eu/info/sites/info/files/commission-white-paper-artificial-intelligence-feb2020_en.pdf)
+- [General] EU: AI Act (proposal) (2021/04) [link](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52021PC0206&from=EN)
     - 主な内容
         - イノベーションと社会の安全・安定の両立を図る
         - リスクを理解し、高リスクなAIシステムを区別し、コントロールする
         - 頑健性（セキュリティ含む）やプライバシーを実現する技術の重要性を謳っている
-- [Security] ENISA: Report "Artificial Intelligence Cybersecurity Challenges" (2020/12/15)
-    - https://www.enisa.europa.eu/publications/artificial-intelligence-cybersecurity-challenges
+- [Security] ENISA: Report "Artificial Intelligence Cybersecurity Challenges" (2020/12/15) [link](https://www.enisa.europa.eu/publications/artificial-intelligence-cybersecurity-challenges)
     - [プレスリリース](https://www.enisa.europa.eu/news/enisa-news/enisa-ai-threat-landscape-report-unveils-major-cybersecurity-challenges) では "Landscape Report" と呼ばれている
-    - ENISA は EU のサイバーセキュリティの agency
-- [Security] ENISA: Report "Securing Machine Learning Algorithms" (2021/12/14)
-    - https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms
-- [General] 英ICO: Guidance on AI and Data Protection (2020/07)
-    - https://ico.org.uk/for-organisations/guide-to-data-protection/key-dp-themes/guidance-on-artificial-intelligence-anddata-protection/
+    - ちなみに ENISA は EU のサイバーセキュリティの agency
+- [Security] ENISA: Report "Securing Machine Learning Algorithms" (2021/12/14) [link](https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms)
+- [General] 英ICO: Guidance on AI and Data Protection (2020/07) [link](https://ico.org.uk/for-organisations/guide-to-data-protection/key-dp-themes/guidance-on-artificial-intelligence-anddata-protection/]
     - データ保護観点からのガイダンス。リスク評価ツール (Excel) が付属。
 
 
