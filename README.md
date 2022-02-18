@@ -115,6 +115,8 @@ Certified robustness
 - 樋口, 森川, 清水, 分類モデルに対するVAEを用いた教師データ推定攻撃, 暗号と情報セキュリティシンポジウム SCIS 2020.
 
 - [TODO] membership inference attacks
+    - Shokri, et al.
+    - Salem, et al., ML-Leaks, 2018. [arXiv](https://arxiv.org/pdf/1806.01246.pdf)
 
 ### Model inversion against NLP models
 - Pan: "Privacy Risks of General Purpose Language Models" [IEEE S&P 2020](https://www.computer.org/csdl/proceedings-article/sp/2020/349700b471/1j2LgooZ4fS), [Semantic Scholar](https://www.semanticscholar.org/paper/Privacy-Risks-of-General-Purpose-Language-Models-Pan-Zhang/b3c73de96640ee858f83c3f0eda2a3d15d59b847)
