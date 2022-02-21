@@ -152,10 +152,10 @@ Certified robustness
     - 主な内容
         - イノベーションと社会の安全・安定の両立を図る
         - リスクを理解し、高リスクなAIシステムを区別し、コントロールする
-        - 頑健性（セキュリティ含む）やプライバシーを実現する技術の重要性を謳っている
-- [Security] ENISA: Report "Artificial Intelligence Cybersecurity Challenges" (2020/12/15) [link](https://www.enisa.europa.eu/publications/artificial-intelligence-cybersecurity-challenges)
-    - [プレスリリース](https://www.enisa.europa.eu/news/enisa-news/enisa-ai-threat-landscape-report-unveils-major-cybersecurity-challenges) では "Landscape Report" と呼ばれている
-    - ちなみに ENISA は EU のサイバーセキュリティの agency
+        - 頑健性（セキュリティ含む）やプライバシーを実現する技術は重要だ
+- [Security] ENISA: Report "Artificial Intelligence Cybersecurity Challenges" (2020/12/15) [link](https://www.enisa.europa.eu/publications/artificial-intelligence-cybersecurity-challenges) [press release](https://www.enisa.europa.eu/news/enisa-news/enisa-ai-threat-landscape-report-unveils-major-cybersecurity-challenges)
+    - 通称 AI Threat Landscape Report
+    - ちなみに ENISA は EU のサイバーセキュリティの agency. この報告書は ENISA の ad-hoc AI WG が作成.
 - [Security] ENISA: Report "Securing Machine Learning Algorithms" (2021/12/14) [link](https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms)
 - [General] 英ICO: Guidance on AI and Data Protection (2020/07) [link](https://ico.org.uk/for-organisations/guide-to-data-protection/key-dp-themes/guidance-on-artificial-intelligence-anddata-protection/)
     - データ保護観点からのガイダンス。リスク評価ツール (Excel) が付属。
