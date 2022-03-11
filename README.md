@@ -44,6 +44,8 @@
 - Eykholt+ 2018, Robust Physical-World Attacks, CVPR 2018, [arXiv](https://arxiv.org/abs/1707.08945) -- 交通標識
 - Athalye+ 2018, Synthesizing Robust Adversarial Examples, ICML 2018, [arXiv](https://arxiv.org/abs/1707.07397) -- 3Dプリンタで作ったカメ [YouTube](https://www.youtube.com/watch?v=YXy6oX1iNoA) [labsix](https://www.labsix.org/physical-objects-that-fool-neural-nets/)
 - Brown+ 2017, Adversarial Patch, NIPS 2017. [arXiv](https://arxiv.org/pdf/1712.09665.pdf)
+    - adversarial patch の研究 (攻撃・防御) は他にもいろいろある
+    - 一般向け日本語記事: [知財図鑑](https://chizaizukan.com/news/2a0vpJvhouv9l9icYpUqo4/) - 電通などによるパッチ付きの衣服
 
 ### Other data types
 - Semantic Segmentation: Xiao+ 2018, Characterizing Adversarial Examples Based on Spatial Consistency Information for Semantic Segmentation, ECCV 2018. [arXiv](https://arxiv.org/abs/1810.05162) - 画像からの物体領域の切り出しに対する adversarial examples とその対策・性質。
